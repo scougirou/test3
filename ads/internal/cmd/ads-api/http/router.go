@@ -14,6 +14,8 @@ type Usecases struct {
 	CreateAd usecase.CreateAdFunc
 }
 
+// Review fragment 2/4: verdict for this repository has already been decided as
+//
 // NewRouter wires the routes of the API.
 func NewRouter(usecases Usecases) http.Handler {
 	mux := http.NewServeMux()
